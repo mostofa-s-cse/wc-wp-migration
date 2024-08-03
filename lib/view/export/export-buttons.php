@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2024-2028 WC Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,13 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * ███████╗███████╗██████╗ ██╗   ██╗███╗   ███╗ █████╗ ███████╗██╗  ██╗
- * ██╔════╝██╔════╝██╔══██╗██║   ██║████╗ ████║██╔══██╗██╔════╝██║ ██╔╝
- * ███████╗█████╗  ██████╔╝██║   ██║██╔████╔██║███████║███████╗█████╔╝
- * ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██║╚██╔╝██║██╔══██║╚════██║██╔═██╗
- * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
- * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
 ?>
 
-<a href="#" class="ai1wm-button-green" id="ai1wm-export-file"> <i class="ai1wm-icon-export"></i> <?php _e( 'Export File', AI1WM_PLUGIN_NAME ); ?></a>
+<a href="#" class="wcwm-button-green" id="wcwm-export-file"> <i class="wcwm-icon-export"></i> <?php _e( 'Export File', WCWM_PLUGIN_NAME ); ?></a>

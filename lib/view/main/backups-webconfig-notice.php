@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2024-2028 WC Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,12 +15,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * ███████╗███████╗██████╗ ██╗   ██╗███╗   ███╗ █████╗ ███████╗██╗  ██╗
- * ██╔════╝██╔════╝██╔══██╗██║   ██║████╗ ████║██╔══██╗██╔════╝██║ ██╔╝
- * ███████╗█████╗  ██████╔╝██║   ██║██╔████╔██║███████║███████╗█████╔╝
- * ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██║╚██╔╝██║██╔══██║╚════██║██╔═██╗
- * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
- * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
 ?>
 
@@ -31,10 +25,10 @@
 			__(
 				'All in One WP Migration is not able to create <strong>%s</strong> file. ' .
 				'Try to change permissions of the parent folder or send us an email at ' .
-				'<a href="mailto:support@servmask.com">support@servmask.com</a> for assistance.',
-				AI1WM_PLUGIN_NAME
+				'<a href="mailto:support@wc.com">support@wc.com</a> for assistance.',
+				WCWM_PLUGIN_NAME
 			),
-			AI1WM_BACKUPS_WEBCONFIG
+			WCWM_BACKUPS_WEBCONFIG
 		)
 		?>
 	</p>

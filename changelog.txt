@@ -52,7 +52,7 @@
 
 = 5.44 =
 * Add "Do not replace email domain" option in advanced settings
-* Add "ai1wm_exclude_content_from_export" WordPress hook on export
+* Add "wcwm_exclude_content_from_export" WordPress hook on export
 * Add HTML5 uploader
 
 = 5.43 =
@@ -189,8 +189,8 @@
 * Fixed secret key issue on upgrade of the plugin
 
 = 3.0.0 =
-* Added export to File, [Dropbox](https://servmask.com/products/dropbox-extension), [Amazon S3](https://servmask.com/products/amazon-s3-extension), [Google Drive](https://servmask.com/products/google-drive-extension)
-* Added import from File, [Dropbox](https://servmask.com/products/dropbox-extension), [Amazon S3](https://servmask.com/products/amazon-s3-extension), [Google Drive](https://servmask.com/products/google-drive-extension)
+* Added export to File, [Dropbox](https://wc.com/products/dropbox-extension), [Amazon S3](https://wc.com/products/amazon-s3-extension), [Google Drive](https://wc.com/products/google-drive-extension)
+* Added import from File, [Dropbox](https://wc.com/products/dropbox-extension), [Amazon S3](https://wc.com/products/amazon-s3-extension), [Google Drive](https://wc.com/products/google-drive-extension)
 * Implemented our own archiving format that reduces export and import by a factor of 10
 * One-click export with the new simplified export page
 * Improved upload functionality with auto-recognizing chunk size on import

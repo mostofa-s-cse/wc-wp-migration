@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2024-2028 WC Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,12 +15,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * ███████╗███████╗██████╗ ██╗   ██╗███╗   ███╗ █████╗ ███████╗██╗  ██╗
- * ██╔════╝██╔════╝██╔══██╗██║   ██║████╗ ████║██╔══██╗██╔════╝██║ ██╔╝
- * ███████╗█████╗  ██████╔╝██║   ██║██╔████╔██║███████║███████╗█████╔╝
- * ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██║╚██╔╝██║██╔══██║╚════██║██╔═██╗
- * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
- * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
 ?>
 
@@ -49,23 +43,23 @@
 	}(document, 'script', 'twitter-wjs');
 </script>
 
-<div class="ai1wm-share-button-container">
+<div class="wcwm-share-button-container">
 	<span>
 		<a
 			href="https://twitter.com/share"
 			class="twitter-share-button"
-			data-url="https://servmask.com"
+			data-url="https://wc.com"
 			data-text="Check this epic WordPress Migration plugin"
-			data-via="servmask"
-			data-related="servmask"
-			data-hashtags="servmask"
+			data-via="wc"
+			data-related="wc"
+			data-hashtags="wc"
 			>
-			<?php _e( 'Tweet', AI1WM_PLUGIN_NAME ); ?>
+			<?php _e( 'Tweet', WCWM_PLUGIN_NAME ); ?>
 		</a>
 	</span>
 	<span>
 		<div
-			class="fb-like ai1wm-top-negative-four"
+			class="fb-like wcwm-top-negative-four"
 			data-href="https://www.facebook.com/servmaskproduct"
 			data-layout="button_count"
 			data-action="recommend"

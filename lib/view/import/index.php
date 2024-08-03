@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2024-2028 WC Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,39 +15,33 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * ███████╗███████╗██████╗ ██╗   ██╗███╗   ███╗ █████╗ ███████╗██╗  ██╗
- * ██╔════╝██╔════╝██╔══██╗██║   ██║████╗ ████║██╔══██╗██╔════╝██║ ██╔╝
- * ███████╗█████╗  ██████╔╝██║   ██║██╔████╔██║███████║███████╗█████╔╝
- * ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██║╚██╔╝██║██╔══██║╚════██║██╔═██╗
- * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
- * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
 ?>
 
-<div class="ai1wm-container">
-			<div class="ai1wm-holder">
+<div class="wcwm-container">
+			<div class="wcwm-holder">
 				<h1>
-					<i class="ai1wm-icon-publish"></i>
-					<?php _e( 'Import Site', AI1WM_PLUGIN_NAME ); ?>
+					<i class="wcwm-icon-publish"></i>
+					<?php _e( 'Import Site', WCWM_PLUGIN_NAME ); ?>
 				</h1>
 
-				<?php include AI1WM_TEMPLATES_PATH . '/common/report-problem.php'; ?>
+				<?php include WCWM_TEMPLATES_PATH . '/common/report-problem.php'; ?>
 
-				<form action="" method="post" id="ai1wm-import-form" class="ai1wm-clear" enctype="multipart/form-data">
+				<form action="" method="post" id="wcwm-import-form" class="wcwm-clear" enctype="multipart/form-data">
 
 					<p>
-						<?php _e( 'Use the box below to upload a wpress file.', AI1WM_PLUGIN_NAME ); ?><br />
+						<?php _e( 'Use the box below to upload a wpress file.', WCWM_PLUGIN_NAME ); ?><br />
 					</p>
 
-					<?php do_action( 'ai1wm_import_left_options' ); ?>
+					<?php do_action( 'wcwm_import_left_options' ); ?>
 
-					<?php include AI1WM_TEMPLATES_PATH . '/import/import-buttons.php'; ?>
+					<?php include WCWM_TEMPLATES_PATH . '/import/import-buttons.php'; ?>
 
-					<input type="hidden" name="ai1wm_manual_import" value="1" />
+					<input type="hidden" name="wcwm_manual_import" value="1" />
 
 				</form>
 
-				<?php do_action( 'ai1wm_import_left_end' ); ?>
+				<?php do_action( 'wcwm_import_left_end' ); ?>
 
 			</div>
 		</div>

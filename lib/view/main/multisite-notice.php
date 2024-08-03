@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2024-2028 WC Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,12 +15,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * ███████╗███████╗██████╗ ██╗   ██╗███╗   ███╗ █████╗ ███████╗██╗  ██╗
- * ██╔════╝██╔════╝██╔══██╗██║   ██║████╗ ████║██╔══██╗██╔════╝██║ ██╔╝
- * ███████╗█████╗  ██████╔╝██║   ██║██╔████╔██║███████║███████╗█████╔╝
- * ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██║╚██╔╝██║██╔══██║╚════██║██╔═██╗
- * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
- * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
 ?>
 
@@ -30,12 +24,12 @@
 		_e(
 			'WordPress Multisite is supported via our All in One WP Migration Multisite Extension. ' .
 			'You can get a copy of it here',
-			AI1WM_PLUGIN_NAME
+			WCWM_PLUGIN_NAME
 		);
 		?>
-		<a href="https://servmask.com/products/multisite-extension" target="_blank" class="ai1wm-label">
-			<i class="ai1wm-icon-notification"></i>
-			<?php _e( 'Get multisite', AI1WM_PLUGIN_NAME ); ?>
+		<a href="https://wc.com/products/multisite-extension" target="_blank" class="wcwm-label">
+			<i class="wcwm-icon-notification"></i>
+			<?php _e( 'Get multisite', WCWM_PLUGIN_NAME ); ?>
 		</a>
 	</p>
 </div>

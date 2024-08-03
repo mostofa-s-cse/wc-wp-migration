@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2024-2028 WC Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,18 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * ███████╗███████╗██████╗ ██╗   ██╗███╗   ███╗ █████╗ ███████╗██╗  ██╗
- * ██╔════╝██╔════╝██╔══██╗██║   ██║████╗ ████║██╔══██╗██╔════╝██║ ██╔╝
- * ███████╗█████╗  ██████╔╝██║   ██║██╔████╔██║███████║███████╗█████╔╝
- * ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██║╚██╔╝██║██╔══██║╚════██║██╔═██╗
- * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
- * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
 
 // Include plugin bootstrap file
 require_once dirname( __FILE__ ) .
 	DIRECTORY_SEPARATOR .
-	'all-in-one-wp-migration.php';
+	'wc-wp-migration.php';
 
 /**
  * Trigger Uninstall process only if WP_UNINSTALL_PLUGIN is defined
@@ -35,8 +29,8 @@ if ( defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	global $wpdb, $wp_filesystem;
 
 	// Delete any options or other data stored in the database here
-	delete_option( AI1WM_STATUS );
-	delete_option( AI1WM_SECRET_KEY );
-	delete_option( AI1WM_AUTH_USER );
-	delete_option( AI1WM_AUTH_PASSWORD );
+	delete_option( WCWM_STATUS );
+	delete_option( WCWM_SECRET_KEY );
+	delete_option( WCWM_AUTH_USER );
+	delete_option( WCWM_AUTH_PASSWORD );
 }

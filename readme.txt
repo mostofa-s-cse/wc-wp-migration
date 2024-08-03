@@ -1,10 +1,10 @@
-=== All-in-One WP Migration ===
+=== WC WP Migration ===
 Contributors: yani.iliev, bangelov, pimjitsawang
 Tags: move, transfer, copy, migrate, backup, clone, restore, db migration, wordpress migration, website migration, database export, database import, apoyo, sauvegarde, di riserva, バックアップ
 Requires at least: 3.3
 Tested up to: 4.9
 Requires PHP: 5.2.17
-Stable tag: 6.77
+Stable tag: 1.0
 License: GPLv2 or later
 
 Move, transfer, copy, migrate, and backup a site with 1-click. Quick, easy, and reliable.
@@ -19,7 +19,7 @@ Mobile device compatible: All in One WP Plugin is the first plugin to offer true
 
 = No limitations on host or operating system =
 * We have tested the plugin on the major Linux distributions, MacOS and Microsoft Windows.
-* [Please see the list of hosting providers that we work with.](https://help.servmask.com/knowledgebase/supported-hosting-providers/)
+* [Please see the list of hosting providers that we work with.](https://help.wc.com/knowledgebase/supported-hosting-providers/)
 
 = Bypass all upload size restriction =
 * We use chunks to import your site data. Most providers set the maximum upload file size to 2MB. As the file restrictions are only applied to each chunk, webserver upload size restrictions are bypassed by keeping the chunks under 2MB to easily upload your entire site.
@@ -34,32 +34,32 @@ Mobile device compatible: All in One WP Plugin is the first plugin to offer true
 * We have a comprehensive Quality Assurance and testing process that ensures that the plugin is always compatible with the latest release of WordPress, but we don't support versions of WordPress prior to version 3.3 (2012)
 
 = WP-CLI Integration is included =
-* [WP-CLI Integration Documentation](https://help.servmask.com/knowledgebase/cli-integration/)
+* [WP-CLI Integration Documentation](https://help.wc.com/knowledgebase/cli-integration/)
 
 = Support =
 * For the community version of the plugin please watch the instruction videos below and see our FAQ.
-* If you have more complex requirements, our team is here to help. If you have any questions please feel free to get in touch at [help.servmask.com](https://help.servmask.com/)
+* If you have more complex requirements, our team is here to help. If you have any questions please feel free to get in touch at [help.wc.com](https://help.wc.com/)
 * All premium products include premium support.
 
 = Migrate WordPress to cloud storage services using our completely new premium extensions =
 **All of the Cloud Storage and Multisite extensions include premium support and the Unlimited extension free of charge**
 
-* [Unlimited](https://servmask.com/products/unlimited-extension)
-* [Dropbox](https://servmask.com/products/dropbox-extension)
-* [Multisite](https://servmask.com/products/multisite-extension)
-* [FTP](https://servmask.com/products/ftp-extension)
-* [Google Drive](https://servmask.com/products/google-drive-extension)
-* [Amazon S3](https://servmask.com/products/amazon-s3-extension)
-* [URL](https://servmask.com/products/url-extension)
-* [OneDrive](https://servmask.com/products/onedrive-extension)
-* [Box](https://servmask.com/products/box-extension)
-* [Mega](https://servmask.com/products/mega-extension)
-* [DigitalOcean Spaces](https://servmask.com/products/digitalocean-spaces-extension)
-* [Backblaze B2](https://servmask.com/products/backblaze-b2-extension)
-* [Google Cloud Storage](https://servmask.com/products/google-cloud-storage-extension)
-* [Microsoft Azure Storage](https://servmask.com/products/microsoft-azure-storage-extension)
-* [Amazon Glacier](https://servmask.com/products/amazon-glacier-extension)
-* [pCloud](https://servmask.com/products/pcloud-extension)
+* [Unlimited](https://wc.com/products/unlimited-extension)
+* [Dropbox](https://wc.com/products/dropbox-extension)
+* [Multisite](https://wc.com/products/multisite-extension)
+* [FTP](https://wc.com/products/ftp-extension)
+* [Google Drive](https://wc.com/products/google-drive-extension)
+* [Amazon S3](https://wc.com/products/amazon-s3-extension)
+* [URL](https://wc.com/products/url-extension)
+* [OneDrive](https://wc.com/products/onedrive-extension)
+* [Box](https://wc.com/products/box-extension)
+* [Mega](https://wc.com/products/mega-extension)
+* [DigitalOcean Spaces](https://wc.com/products/digitalocean-spaces-extension)
+* [Backblaze B2](https://wc.com/products/backblaze-b2-extension)
+* [Google Cloud Storage](https://wc.com/products/google-cloud-storage-extension)
+* [Microsoft Azure Storage](https://wc.com/products/microsoft-azure-storage-extension)
+* [Amazon Glacier](https://wc.com/products/amazon-glacier-extension)
+* [pCloud](https://wc.com/products/pcloud-extension)
 
 = Supported hosting providers =
 **The plugin does not have any dependencies, making it compatible with all PHP hosting providers. We support a vast range of hosting providers. Some of the most popular include:**
@@ -77,24 +77,24 @@ Mobile device compatible: All in One WP Plugin is the first plugin to offer true
 * Site5
 * 1&1
 * Pantheon
-* [See the full list of supported providers here](https://help.servmask.com/knowledgebase/supported-hosting-providers/)
+* [See the full list of supported providers here](https://help.wc.com/knowledgebase/supported-hosting-providers/)
 
 = Contact us =
-* [Get free help from us here](https://servmask.com/help)
-* [Report a bug or request a feature](https://servmask.com/help)
-* [Find out more about us](https://servmask.com)
+* [Get free help from us here](https://wc.com/help)
+* [Report a bug or request a feature](https://wc.com/help)
+* [Find out more about us](https://wc.com)
 
 [youtube http://www.youtube.com/watch?v=BpWxCeUWBOk]
 
 [youtube http://www.youtube.com/watch?v=mRp7qTFYKgs]
 
 == Installation ==
-1. All-in-One WP Migration can be installed directly through your WordPress
+1. WC WP Migration can be installed directly through your WordPress
 Plugins dashboard.
-1. Click "Add New" and Search for "All-in-One WP Migration"
+1. Click "Add New" and Search for "WC WP Migration"
 1. Install and Activate
 
-Alternatively you can download the plugin using the download button on this page and then upload the all-in-one-wp-migration folder to the /wp-content/plugins/ directory then activate throught the Plugins dashboard in WordPress
+Alternatively you can download the plugin using the download button on this page and then upload the wc-wp-migration folder to the /wp-content/plugins/ directory then activate throught the Plugins dashboard in WordPress
 
 == Screenshots ==
 1. Mobile Export page
@@ -102,10 +102,10 @@ Alternatively you can download the plugin using the download button on this page
 3. Plugin Menu
 
 == Privacy Policy ==
-All-in-One WP Migration **asks for your consent** to collect **requester's email address** when filling plugin's contact form. [GDPR Compliant Privacy Policy](https://www.iubenda.com/privacy-policy/946881)
+WC WP Migration **asks for your consent** to collect **requester's email address** when filling plugin's contact form. [GDPR Compliant Privacy Policy](https://www.iubenda.com/privacy-policy/946881)
 
 == Changelog ==
-= 6.77 =
+= 1.0 =
 **Added**
 
 * Support for pCloud
@@ -437,7 +437,7 @@ All-in-One WP Migration **asks for your consent** to collect **requester's email
 = 6.40 =
 **Added**
 
-* Separate action hook in advanced settings called "ai1wm_export_advanced_settings" to allow custom checkbox options on export
+* Separate action hook in advanced settings called "wcwm_export_advanced_settings" to allow custom checkbox options on export
 
 **Changed**
 

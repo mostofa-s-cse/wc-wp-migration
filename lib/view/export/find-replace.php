@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2014-2018 ServMask Inc.
+ * Copyright (C) 2024-2028 WC Inc.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,35 +15,29 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * ███████╗███████╗██████╗ ██╗   ██╗███╗   ███╗ █████╗ ███████╗██╗  ██╗
- * ██╔════╝██╔════╝██╔══██╗██║   ██║████╗ ████║██╔══██╗██╔════╝██║ ██╔╝
- * ███████╗█████╗  ██████╔╝██║   ██║██╔████╔██║███████║███████╗█████╔╝
- * ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██║╚██╔╝██║██╔══██║╚════██║██╔═██╗
- * ███████║███████╗██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║██║  ██║███████║██║  ██╗
- * ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
  */
 ?>
 
-<ul id="ai1wm-queries">
-	<li class="ai1wm-query ai1wm-expandable">
+<ul id="wcwm-queries">
+	<li class="wcwm-query wcwm-expandable">
 		<p>
 			<span>
-				<strong><?php _e( 'Find', AI1WM_PLUGIN_NAME ); ?></strong>
-				<small class="ai1wm-query-find-text ai1wm-tooltip" title="Search the database for this text"><?php echo esc_html( __( '<text>', AI1WM_PLUGIN_NAME ) ); ?></small>
-				<strong><?php _e( 'Replace with', AI1WM_PLUGIN_NAME ); ?></strong>
-				<small class="ai1wm-query-replace-text ai1wm-tooltip" title="Replace the database with this text"><?php echo esc_html( __( '<another-text>', AI1WM_PLUGIN_NAME ) ); ?></small>
-				<strong><?php _e( 'in the database', AI1WM_PLUGIN_NAME ); ?></strong>
+				<strong><?php _e( 'Find', WCWM_PLUGIN_NAME ); ?></strong>
+				<small class="wcwm-query-find-text wcwm-tooltip" title="Search the database for this text"><?php echo esc_html( __( '<text>', WCWM_PLUGIN_NAME ) ); ?></small>
+				<strong><?php _e( 'Replace with', WCWM_PLUGIN_NAME ); ?></strong>
+				<small class="wcwm-query-replace-text wcwm-tooltip" title="Replace the database with this text"><?php echo esc_html( __( '<another-text>', WCWM_PLUGIN_NAME ) ); ?></small>
+				<strong><?php _e( 'in the database', WCWM_PLUGIN_NAME ); ?></strong>
 			</span>
-			<span class="ai1wm-query-arrow ai1wm-icon-chevron-right"></span>
+			<span class="wcwm-query-arrow wcwm-icon-chevron-right"></span>
 		</p>
 		<div>
-			<input class="ai1wm-query-find-input" type="text" placeholder="<?php _e( 'Find', AI1WM_PLUGIN_NAME ); ?>" name="options[replace][old_value][]" />
-			<input class="ai1wm-query-replace-input" type="text" placeholder="<?php _e( 'Replace with', AI1WM_PLUGIN_NAME ); ?>" name="options[replace][new_value][]" />
+			<input class="wcwm-query-find-input" type="text" placeholder="<?php _e( 'Find', WCWM_PLUGIN_NAME ); ?>" name="options[replace][old_value][]" />
+			<input class="wcwm-query-replace-input" type="text" placeholder="<?php _e( 'Replace with', WCWM_PLUGIN_NAME ); ?>" name="options[replace][new_value][]" />
 		</div>
 	</li>
 </ul>
 
-<button type="button" class="ai1wm-button-gray" id="ai1wm-add-new-replace-button">
-	<i class="ai1wm-icon-plus2"></i>
-	<?php _e( 'Add', AI1WM_PLUGIN_NAME ); ?>
+<button type="button" class="wcwm-button-gray" id="wcwm-add-new-replace-button">
+	<i class="wcwm-icon-plus2"></i>
+	<?php _e( 'Add', WCWM_PLUGIN_NAME ); ?>
 </button>
